@@ -1,0 +1,43 @@
+{
+  "name": "vite",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "vite",
+    "build:staging": "tsc && vite build --mode staging",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "antd": "^4.15.6",
+    "history": "^4.10.1",
+    "json-api-fetch": "^0.4.0",
+    "moment": "^2.29.1",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/hoist-non-react-statics": "^3.3.1",
+    "@types/node": "^15.6.1",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/webpack-env": "^1.16.0",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.10.0",
+    "@vitejs/plugin-react-refresh": "^1.3.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-tencent": "^1.0.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "less": "^4.1.1",
+    "typescript": "^4.1.2",
+    "vite": "^2.3.0",
+    "vite-plugin-imp": "^2.0.7"
+  }
+}
